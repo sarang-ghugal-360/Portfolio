@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - About</title>
+    <script src="styles.css"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="About.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="Skills.html"><i class="fas fa-laptop-code"></i>Skills</a></li>
+                <li><a href="Portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="Contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--About section-->
+ 
+<div class="info">
+    <div class="firstinfo" >
+        <img src="img/banner1-removebg.png" alt="" class="banner1" width="100%" height="95%">
+    </div>
+    <div class="secondinfo">
+        <div class="about-me">
+            
+            <h1>About Me</h1>
+            <p>Hello! I’m Sarang Ghugal, an intern specializing in web development and Android development.
+                Currently, I am enhancing my skills by pursuing a Full Stack Java course at Kiran Academy.
+                My journey in technology began with a passion for creating innovative solutions,
+                and I am dedicated to expanding my knowledge and expertise in the field.
+            </p>
+            <a href="https://linkedin.com/in/sarang-ghugal-4a766324a">
+                <button class="btn"><i class="fas fa-user-plus"></i> Hire Me</button>
+            </a>
+            
+            <a href="img/sarang ghugal1.pdf" download>
+                <button class="btn"><i class="fas fa-file-download"></i> Download CV</button>
+
+            </a>
+        </div>
+        
+    </div>
+
+</div>
+<!-- <button class="read-more"><i class="fas fa-chevron-down"></i> Read More</button>
+<button><i class="fas fa-user-plus"></i> Hire Me</button>
+<a href="img/sarang ghugal1.pdf" download>
+    <button><i class="fas fa-file-download"></i> Download CV</button>
+
+</a> -->
+<div class="contactme">
+    
+    <p >
+         
+        <a href="mailto:sarangghugal2@gmail.com"><i class="fas fa-envelope"></i> sarangghugal2@gmail.com</a>,
+        
+        <a href="https://linkedin.com/in/sarang-ghugal-4a766324a"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        
+        <a href="https://github.com/sarang-ghugal-360"><i class="fab fa-github"></i> GitHub</a>.
+         
+    </p>
+   
+
+</div>
+    <!-- <section id="home" class="hero-section">
+
+
+        <div class="introduction-text">
+            <div class="about-me">
+                <p>
+                <h1>Sarang Ghugal</h1>
+                <p>Hello! I’m Sarang Ghugal, an intern specializing in web development and Android development.
+                    Currently, I am enhancing my skills by pursuing a Full Stack Java course at Kiran Academy.
+                    My journey in technology began with a passion for creating innovative solutions,
+                    and I am dedicated to expanding my knowledge and expertise in the field.
+                </p>
+                </p>
+            </div>
+            <div class="mybackground">
+                <h3 class="hidden">My Background</h3>
+                <p class="hidden">
+                    As an intern, I have gained hands-on experience in both web and Android development, working on
+                    various
+                    projects that have allowed me to apply my skills in real-world scenarios.
+                    My training at Kiran Academy has equipped me with a solid foundation in Full Stack Java development,
+                    enabling me to understand both front-end and back-end technologies.
+                </p>
+            </div>
+
+
+            <div class="MyApproach">
+                <h3>My Approach</h3>
+                <p class="hidden">
+                    I believe in the power of collaboration and continuous learning. My approach involves understanding
+                    the
+                    needs of users and clients to create intuitive and efficient applications.
+                    I am particularly passionate about building responsive web applications and user-friendly mobile
+                    apps,
+                    and I strive to deliver high-quality results in every project I undertake.
+                </p>
+            </div>
+            <div class="Whatioffer">
+                <h3>What I Offer</h3>
+                <p class="hidden">
+                    In my portfolio, you will find a selection of my work that showcases my skills in web development
+                    and
+                    Android development.
+                    I am committed to creating innovative solutions that meet the needs of users while ensuring a
+                    seamless
+                    experience.
+                </p>
+
+            </div>
+            <div class="contactme">
+                <h3 class="hidden">Let’s Connect</h3>
+                <p class="hidden">
+                    I am always eager to collaborate on new projects and explore innovative ideas.
+                    If you’d like to discuss a potential project or just want to connect, feel free to reach out to me at
+                    <a href="mailto:sarangghugal2@gmail.com"><i class="fas fa-envelope"></i> sarangghugal2@gmail.com</a>,
+                    connect with me on
+                    <a href="https://linkedin.com/in/sarang-ghugal-4a766324a"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    or
+                    <a href="https://github.com/sarang-ghugal-360"><i class="fab fa-github"></i> GitHub</a>.
+                    Thank you for visiting my portfolio!
+                </p>
+                <button class="read-more"><i class="fas fa-chevron-down"></i> Read More</button>
+                <button><i class="fas fa-user-plus"></i> Hire Me</button>
+                <a href="img/sarang ghugal1.pdf" download>
+                    <button><i class="fas fa-file-download"></i> Download CV</button>
+    
+                </a>
+    
+            </div>
+           
+        </div>
+
+
+    </section> -->
+    <footer>
+        <p>&copy; 2023 Sarang Ghugal. All rights reserved.</p>
+    </footer>
+
+
+    <script>
+        // Select the Read More button and hidden text elements
+        const readMoreButton = document.querySelector('.read-more');
+        const hiddenTexts = document.querySelectorAll('.hidden');
+
+        // Add click event listener to the Read More button
+        readMoreButton.addEventListener('click', () => {
+            // Toggle visibility of hidden text
+            hiddenTexts.forEach(text => {
+                text.classList.toggle('visible');
+                text.classList.toggle('scrollable'); // Add scrollable class for overflow
+            });
+
+            // Change button text and icon based on state
+            readMoreButton.classList.toggle('active');
+            readMoreButton.innerHTML = readMoreButton.classList.contains('active')
+                ? '<i class="fas fa-chevron-up"></i> Read Less'
+                : '<i class="fas fa-chevron-down"></i> Read More';
+        });
+    </script>
+</body>
+
+</html>

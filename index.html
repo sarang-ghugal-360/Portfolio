@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="About.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="Skills.html"><i class="fas fa-laptop-code"></i>Skills</a></li>
+                <li><a href="Portfolio.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="Contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="home" class="hero-section">
+        <div class="intro-container ">
+            <div class="profile-image  scroll-animation-left" >
+                <img src="img/banner.png" alt="Your Name">
+            </div>
+            <div class="introduction-text  scroll-animation-right" >
+                <h1>Hello, I'm Sarang Ghugal</h1>
+                <p>Welcome to my portfolio! I am a Java Fullstack Devloper with a passion for Web Devlopment.</p>
+                <a href="https://linkedin.com/in/sarang-ghugal-4a766324a">
+                    <button class="btn"><i class="fas fa-user-plus  scroll-animation-right"></i> Hire Me</button>
+                </a>
+                 
+                <a href="img/sarang ghugal1.pdf" download>
+                    <button class="btn"><i class="fas fa-file-download scroll-animation-right"></i> Download CV</button>
+    
+                </a>
+            </div>
+        </div>
+    </section>
+<!--About section-->
+<div class="info">
+    <div class="firstinfo" >
+        <img src="img/banner1-removebg.png" alt="" class="banner1 scroll-animation-left" width="100%" height="95%">
+    </div>
+    <div class="secondinfo">
+        <div class="about-me scroll-animation-right">
+            
+            <h1>About Me</h1>
+            <p>Hello! I’m Sarang Ghugal, an intern specializing in web development and Android development.
+                Currently, I am enhancing my skills by pursuing a Full Stack Java course at Kiran Academy.
+                My journey in technology began with a passion for creating innovative solutions,
+                and I am dedicated to expanding my knowledge and expertise in the field.
+            </p>
+            <a href="https://linkedin.com/in/sarang-ghugal-4a766324a">
+                <button class="btn"><i class="fas fa-user-plus"></i> Hire Me</button>
+            </a>
+            
+            <a href="img/sarang ghugal1.pdf" download>
+                <button class="btn"><i class="fas fa-file-download"></i> Download CV</button>
+
+            </a>
+        </div>
+        
+    </div>
+
+</div>
+
+
+<!-- Skills Section -->
+<center><h1>My Skills</h1></center> 
+<div class="skills">
+    <div class="skill-top">
+        <div class="Skill1">
+            <img src="img/Html.jpg" alt="HTML 5">
+            <h3>HTML 5</h3>
+            <p>HTML5 Markup: Master in semantic, SEO-friendly HTML.Responsive Design: Expert at creating responsive layouts.</p>
+        </div>
+        <div class="Skill1">
+            <img src="img/html.png" alt="CSS 3">
+            <h3>CSS 3</h3>
+            <p>CSS3 Styling: Proficient in creating visually appealing designs.
+                Responsive Layouts: Expert in Flexbox and Grid systems.
+                 </p>
+        </div>
+        <div class="Skill1">
+            <img src="img/js.png" alt="JavaScript">
+            <h3>JavaScript</h3>
+            <p>JavaScript Mastery: Expert in writing clean, efficient JS code.
+               DOM Manipulation: Skilled in dynamically updating content and UI elements.
+            </p>
+        </div>
+    </div>
+    <div class="skill-bottom">
+        <div class="Skill1">
+            <img src="img/c++.png" alt="C++">
+            <h3>C++</h3>
+            <p>C++ Proficiency: Advanced knowledge of C++ syntax and features.
+                OOP Principles: Strong understanding of Object-Oriented Programming concepts.
+                </p>
+        </div>
+        <div class="Skill1">
+            <img src="img/java.png" alt=" java">
+            <h3>Java</h3>
+            <p>Java Proficiency: Advanced knowledge of Java syntax and features.
+                Object-Oriented Programming.
+            </p>
+        </div>
+        <div class="Skill1">
+            <img src="img/mysql.png" alt="Mongo Db">
+            <h3>MySQL</h3>
+            <p>MySQL Proficiency: Advanced knowledge of MySQL database management.
+                Database Design: Skilled in designing normalized databases and ER diagrams.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- project section -->
+<section id="portfolio">
+    <h2>My Work</h2>
+    <div class="buttons">
+        <button onclick="filterProjects('all')" class="active">All</button>
+        <button onclick="filterProjects('website')">Website</button>
+        <button onclick="filterProjects('android')">Android</button>
+        <button onclick="filterProjects('game')">Game</button>
+    </div>
+    <div class="projects" id="projectsContainer">
+        <div class="project" data-type="website">
+            <img src="img/E-commerce.png" alt="E-commerce">
+           <center> E-Commerce Website</center><br>
+          <span> Html Css Js are used to Devlopment of Website<br></span>
+           <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="website">
+            <img src="" alt="">
+          <center>  Portfolio Website</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="website">
+            <img src="img/librery.png" alt="library">
+           <center> Library Website</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="website">
+            <img src="img/grocery.png" alt="grocery">
+            <center>Grocery Website</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="android">
+            <img src="img/crmaap.jpg" alt="">
+           <center> CRM App</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="android">
+            <img src="img/weatheraap.png" alt="">
+           <center> Weather App</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="android">
+            <img src="img/jwellaryaap.webp" alt="">
+            <center>Jwellary App</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="android">
+            <img src="img/chatapp.png" alt="">
+           <center> Chat App</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="game">
+            <img src="img/ludogame.jpg" alt="">
+            <center> Ludo</center><br>
+             <span> Html Css Js are used to Devlopment of Website<br></span>
+             <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="game">
+            <img src="img/puzzlgame.jpg" alt=""> 
+            <center>Puzzle Game</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project" data-type="game">
+            <img src="img/spaceshootgame.jpg" alt="">
+             <center>Space Shoot</center><br>
+             <span> Html Css Js are used to Devlopment of Website<br></span>
+             <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+        </div>
+        <div class="project " data-type="game">
+            <img src="img/snakegame.jpg" alt="">
+           <center> Snake Game</center><br>
+            <span> Html Css Js are used to Devlopment of Website<br></span>
+            <span> Source Code:</span>
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+
+    </div>
+</section>
+<!-- contact -->
+<div class="contact-section">
+         
+    <h1 class="contact-title">SEND ME A MESSAGE</h1>
+    <div class="contact-container">
+        <div class="contact-info">
+            <p class="contact-heading">Getting in touch is easy!</p>
+            <p>Chhtrapati square, Nagpur,<br>Maharashtra</p>
+            <p>7666158386</p>
+            <p>sarangghugal2@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/sarang-ghugal-4a766324a" class="fab fa-linkedin"></a>
+               <a href="mailto:sarangghugal2@gmail.com" class="fas fa-envelope"></a>
+               <a href="https://github.com/sarang-ghugal-360" class="fab fa-github"></a></p>
+                
+            </div>
+        </div>
+        <div class="contact-form">
+            <input type="text" class="input-field"  id="name"  placeholder="Your Name">
+            <input type="email" class="input-field"id="email" placeholder="Your Email">
+            <textarea class="input-field textarea" id="message"  placeholder="Write us about any project. We’d love to work with you!"></textarea>
+            <button class="send-button" onclick="validateAndSubmit()">SEND MESSAGE</button>
+        </div>
+    </div>
+</div>
+ 
+
+    <div class="contactme">
+    
+        <p >
+             
+            <a href="mailto:sarangghugal2@gmail.com" class="link"><i class="fas fa-envelope"></i> sarangghugal2@gmail.com</a>,
+            
+            <a href="https://linkedin.com/in/sarang-ghugal-4a766324a" class="link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            
+            <a href="https://github.com/sarang-ghugal-360" class="link"><i class="fab fa-github"></i> GitHub</a>.
+             
+        </p>
+       
+    
+    </div>
+    
+
+     
+
+    <footer>
+        <p>&copy; 2023 Sarang Ghugal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
